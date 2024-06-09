@@ -46,8 +46,8 @@
 
     <script src="https://maps.googleapis.com/maps/api/js?key={{ env('GOOGLE_MAPS_API_KEY') }}&libraries=places&callback=initMap" async defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!--<script src="https://calculadora.seutransfer.com.br/viagens/Main.js"></script>-->   
-    <script src="{{ asset('js/route.js') }}"></script>
+    <script src="https://calculadora.seutransfer.com.br/viagens/Main.js"></script>   
+    <!--<script src="{{ asset('js/route.js') }}"></script>-->
 
 </body>
 </html>
