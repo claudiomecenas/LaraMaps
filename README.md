@@ -66,3 +66,4 @@ Google Maps JavaScript SDK
 ```sh
 npm install @google/maps  
 ```
+- npm warn deprecated @google/maps@1.1.3: Please use @googlemaps/google-maps-services-js instead.
