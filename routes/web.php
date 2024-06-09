@@ -13,7 +13,3 @@ Route::get('/map', function () {
 Route::get('/mapbootstrap', function () {
     return view('mapbootstrap');
 });
-
-Route::get('/map2', function () {
-    return view('map2');
-});

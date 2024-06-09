@@ -1,5 +1,5 @@
  
-@extends('layouts.default')
+@extends('layouts.layout')
  
 @section('title', 'Mapa com Bootstrap')
  

@@ -1,0 +1,27 @@
+body {
+    background: #333333;
+}
+
+.container-body {
+    padding-top: 50px;
+    color: #f3f3f3;
+}
+
+.menu p {
+    color: #000;
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: -3px;
+    margin-right: 0px;
+}
+
+footer {
+    color: #f3f3f3;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    color: #ffffff;
+}
