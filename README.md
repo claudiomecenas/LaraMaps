@@ -58,10 +58,11 @@ Rodar as migrations
 php artisan migrate
 ```
 
+Acesse o projeto
+[http://localhost:8989](http://localhost:8989)  
+
+
 Google Maps JavaScript SDK  
 ```sh
 npm install @google/maps  
 ```
-
-Acesse o projeto
-[http://localhost:8989](http://localhost:8989)
