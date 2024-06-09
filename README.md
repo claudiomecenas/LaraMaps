@@ -18,6 +18,11 @@ Crie o Arquivo .env
 cp .env.example .env
 ```
 
+Adicione sua API KEY ao .env
+```sh
+GOOGLE_MAPS_API_KEY=your_api_key_here  
+```
+
 Edite o .env para usar Redis
 ```sh
 SESSION_DRIVER=redis
@@ -51,6 +56,11 @@ php artisan key:generate
 Rodar as migrations
 ```sh
 php artisan migrate
+```
+
+Google Maps JavaScript SDK  
+```sh
+npm install @google/maps  
 ```
 
 Acesse o projeto
