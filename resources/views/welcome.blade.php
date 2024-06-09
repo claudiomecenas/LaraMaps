@@ -12,6 +12,7 @@
     <ul>
         <li><a class="text-dark" href="/map">Mapa Simples</a></li>
         <li><a class="text-dark" href="/mapbootstrap">Mapa com Layout</a></li>
+        <li><a class="text-dark" href="/traceroute">Traçar rota c/ autocomplete</a></li>
     </ul>
     </div>
 @endsection
