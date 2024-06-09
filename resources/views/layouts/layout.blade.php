@@ -22,11 +22,6 @@
 
     @include('layouts.header')   
 
-    <div class="container-body">
-        <h1 class="text-center">Parque Ibirapuera</h1>
-        <div id="map"></div>  
-    </div> 
-
     @yield('content')
             
     @include('layouts.footer')
