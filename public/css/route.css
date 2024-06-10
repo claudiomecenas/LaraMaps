@@ -1,0 +1,58 @@
+/*styling.css*/
+/*add font family, background image*/
+
+body {
+    color: #5bc0de;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .formulario {
+      margin-bottom: 20px;
+  }
+  
+  .logo {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .fa-map-marker-alt,
+  .fa-dot-circle {
+    color: #5bc0de;
+  }
+  
+  /*Jumbotron*/
+  .jumbotron {
+    background-color: transparent;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .jumbotron h1 {
+    letter-spacing: 2.5px;
+    font-size: 3.5em;
+  }
+  
+  .jumbotron h1,
+  .jumbotron p {
+    text-align: center;
+  }
+  
+  /*map*/
+  #googleMap {
+    width: 100%;
+    height: 350px;
+    margin: 5px auto;
+  }
+  
+  /*output box*/
+  #output {
+    text-align: justify;
+    font-size: 11pt;
+    margin: 20px auto;
+    color: #000 !important;
+    padding:15px 10px 10px 10px;
+  }
+  
+  #mode {
+    color: black;
+  }

@@ -6,9 +6,10 @@
 
     <title>Autocomplete e Traçar Rota</title>
    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="https://calculadora.seutransfer.com.br/viagens/app.css" rel="stylesheet" />
+    <link href="{{ asset('css/route.css') }}" rel="stylesheet" />
 </head>
 
 <body>
@@ -32,7 +33,7 @@
             </form>
 
             <div class="col-xs-offset-2 col-xs-10 formulario">
-                <button class="btn btn-primary btn-lg" onclick="calcRoute();">Calcule Seu Transfer</button>
+                <button class="btn btn-primary btn-lg" onclick="calcRoute();">Traçar Rota</button>
             </div>
 
         </div>
@@ -43,11 +44,12 @@
         </div>
 
     </div>
-
-    <script src="https://maps.googleapis.com/maps/api/js?key={{ env('GOOGLE_MAPS_API_KEY') }}&libraries=places&callback=initMap" async defer></script>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://calculadora.seutransfer.com.br/viagens/Main.js"></script>   
-    <!--<script src="{{ asset('js/route.js') }}"></script>-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key={{ env('GOOGLE_MAPS_API_KEY') }}&libraries=places&callback=initMap" async defer></script>
+    <script src="{{ asset('js/route.js') }}"></script>
 
 </body>
 </html>

@@ -1,4 +1,3 @@
-//javascript.js
 //set map options
 var myLatLng = { lat: -23.555609, lng: -46.664038 };
 var mapOptions = {
@@ -52,7 +51,8 @@ function calcRoute() {
             //Get distance and time
             const output = document.querySelector('#output');
             //output.innerHTML = "<div class='alert-info'>De: " + document.getElementById("from").value + ".<br />Para: " + document.getElementById("to").value + ".<br /> Distância percorrida <i class='fas fa-road'></i> : " + result.routes[0].legs[0].distance.text + ".<br />Duração <i class='fas fa-hourglass-start'></i> : " + result.routes[0].legs[0].duration.text + ".</div>";
-            output.innerHTML = "Distância: <i class='fas fa-road'></i> : " + result.routes[0].legs[0].distance.text + "<br /><br>ORÇAMENTO<hr>Carro <b>COMFORT</b>: R$ <b>" + valorcomfort + "</b><br />Carro <b>PREMIUM</b>: R$ <b>" + valorblack + "</b><hr>OBS:<br><ul><li>Será preciso adicionar valores de pedágio, caso existam.</li></ul></div>";
+            output.innerHTML = "Distância: <i class='fas fa-road'></i> : " + result.routes[0].legs[0].distance.text;
+            // + ".<br />Duração: <i class='fas fa-hourglass-start'></i> : " + result.routes[0].legs[0].duration.text + ".";
 
             //display route
             directionsDisplay.setDirections(result);
