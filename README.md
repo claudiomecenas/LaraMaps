@@ -1,8 +1,6 @@
-
+[![Print ex](https://penseon.com.br/github/laramaps/simplemap-2.jpg)](https://penseon.com.br/github/laramaps/simplemap-2.jpg)  
 
 - Setup Docker com mysql e phpmyadmin
-- Timezone ajustado para o Brasil
-- Adicionado extensões PHP exigidas pelo Filament
 
 ### Passo a passo
 Clone Repositório
