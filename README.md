@@ -1,5 +1,5 @@
 
-[![Print ex](https://penseon.com.br/github/laramaps/traceroute.jpg)](https://penseon.com.br/github/laramaps/traceroute.jpg)  
+[![Print ex](https://penseon.com.br/github/laramaps/traceroute-2.jpg)](https://penseon.com.br/github/laramaps/traceroute-2.jpg)  
 
 - Setup Docker com mysql e phpmyadmin
 
